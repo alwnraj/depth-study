@@ -1,5 +1,9 @@
 > **Source-only repository:** Input GLB scans, generated results, Python environments and model checkpoints are not included. The original local Git history is not included because it contains a third-party scan whose redistribution terms have not been established. Supply your own appropriately licensed GLB for the inventory. The original Bucha regression and some tests require its exact source scan and annotation hash.
 
+## GitHub Pages demo
+
+The static browser version is available at https://alwnraj.github.io/depth-study/. It downloads the pinned ONNX Runtime Web 1.23.2 from jsDelivr and approximately 200 MB of pinned model files from Hugging Face for the chosen scene. Inference runs in the browser; the image itself is not sent to a server. First use requires internet access, and available memory and processing speed depend on the device. The browser version uses browser image resampling and may differ slightly from the local Python version. The metric predictions remain unvalidated estimates.
+
 ## Quick start: photo depth demo
 
 Use Python 3.11–3.13. From the repository folder:
