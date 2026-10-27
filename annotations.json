@@ -1,0 +1,78 @@
+{
+  "source_sha256": "488e2890ab5fa2b464d7b794b37e1b663d88ce7edd2d478135850108d3d7ae93",
+  "method": "Visually guided, scan-specific face labeling; not learned semantic inference",
+  "coordinate_system": "Original GLB world XY, Z up; physical scale unverified",
+  "preview_size": [1240, 1640],
+  "polygon_mapping": {
+    "origin": [-5, 27],
+    "pixels_per_world_unit": [40, -40]
+  },
+  "polygon_input": "Pixel coordinates on the preview_size orthographic inspection render; polygon_mapping converts pixels to source world XY.",
+  "plane": {
+    "normal": [-0.03825514950862483, 0.04229835940470084, 0.9983723715767296],
+    "offset": -1.0186708864722922
+  },
+  "building_height_minimum": 0.35,
+  "building_low_face_minimum": -0.08,
+  "building_low_face_max_abs_normal_z": 0.7,
+  "ground_centroid_distance": 0.30,
+  "ground_vertex_distance": 0.45,
+  "ground_max_normal_angle_degrees": 45,
+  "rubble_max_height": 1.7,
+  "boundary_review_distance": 0.20,
+  "objects": [
+    {
+      "id": 1,
+      "name": "building_01_central",
+      "semantic_class": "building",
+      "color": "#5489df",
+      "status": "Provisional visible building instance",
+      "polygons_pixels": [[[306,649],[586,623],[628,588],[660,666],[665,710],[785,662],[846,687],[822,728],[810,754],[872,713],[933,711],[1058,779],[1104,818],[1102,888],[975,857],[854,873],[716,881],[630,890],[508,905],[348,907],[321,878]]]
+    },
+    {
+      "id": 2,
+      "name": "building_02_south_east",
+      "semantic_class": "building",
+      "color": "#b577d8",
+      "status": "Provisional perimeter-facade instance; physical building continuity is unverified",
+      "polygons_pixels": [[[1040,813],[1150,900],[1195,1370],[1174,1435],[1105,1443],[868,1440],[605,1460],[434,1502],[422,1580],[399,1522],[390,1467],[576,1431],[700,1410],[978,1403],[1114,1398],[1134,1350],[1090,1150],[1080,990],[1070,864]]]
+    },
+    {
+      "id": 3,
+      "name": "building_03_north",
+      "semantic_class": "building",
+      "color": "#e5a245",
+      "status": "Provisional visible building instance",
+      "polygons_pixels": [[[252,187],[483,173],[522,133],[640,121],[647,92],[744,59],[814,91],[866,103],[1002,89],[1078,39],[1100,58],[1036,126],[879,151],[720,167],[628,202],[510,212],[466,237],[310,267],[256,227]]]
+    },
+    {
+      "id": 4,
+      "name": "ground_roads",
+      "semantic_class": "ground_road",
+      "color": "#58b99d",
+      "status": "Planar ground candidate outside annotated debris and building regions; traversability not established",
+      "polygons_pixels": []
+    },
+    {
+      "id": 5,
+      "name": "rubble",
+      "semantic_class": "rubble",
+      "color": "#d77b62",
+      "status": "Provisional debris regions; may contain ground or vegetation between fragments",
+      "polygons_pixels": [
+        [[55,293],[133,326],[174,480],[220,625],[304,653],[317,840],[239,897],[161,767],[92,624],[54,580]],
+        [[200,603],[274,529],[349,546],[449,515],[487,485],[589,509],[656,575],[695,611],[620,650],[500,650],[310,684]],
+        [[255,909],[357,883],[530,902],[733,864],[800,887],[790,944],[627,991],[643,1035],[692,1076],[746,1146],[735,1246],[650,1302],[472,1342],[393,1321],[342,1287],[305,1167],[277,1094]],
+        [[361,1431],[476,1365],[643,1379],[763,1391],[842,1424],[635,1450],[418,1521]]
+      ]
+    },
+    {
+      "id": 6,
+      "name": "uncertain_other",
+      "semantic_class": "unknown",
+      "color": "#9ba5ad",
+      "status": "Unassigned surfaces, mixed debris/vegetation, scan artifacts and uncertain boundaries",
+      "polygons_pixels": []
+    }
+  ]
+}

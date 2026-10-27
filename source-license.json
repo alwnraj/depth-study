@@ -1,0 +1,26 @@
+{
+  "retrieved_date": "2026-09-21",
+  "source_api": "https://api.sketchfab.com/v3/models/f9dbc156ba95471c840c2d3e52880629",
+  "model_page": "https://sketchfab.com/3d-models/destroyed-apartments-bucha-ukraine-war-2022-f9dbc156ba95471c840c2d3e52880629",
+  "model_name": "Destroyed Apartments, Bucha Ukraine War 2022",
+  "creator": "LibanCiel",
+  "creator_profile": "https://sketchfab.com/LibanCiel",
+  "model_uid": "f9dbc156ba95471c840c2d3e52880629",
+  "model_face_count": 183051,
+  "model_published_at": "2022-04-25T08:26:14.183365",
+  "license": {
+    "label": "Standard",
+    "fullName": "Standard",
+    "slug": "st",
+    "url": "https://sketchfab.com/licenses"
+  },
+  "match_evidence": [
+    "Model title matches supplied filename",
+    "Model face count exactly matches the GLB and OBJ: 183051"
+  ],
+  "limitations": [
+    "Metadata identifies a license label; full license-page terms could not be retrieved",
+    "Original acquisition receipt and download-time license were not supplied"
+  ],
+  "input_sha256": "488e2890ab5fa2b464d7b794b37e1b663d88ce7edd2d478135850108d3d7ae93"
+}

@@ -1,0 +1,11 @@
+.venv/
+models/
+__pycache__/
+results/
+results-*/
+*.pyc
+.DS_Store
+.env
+
+# Local scan inputs are not redistributed.
+data/*.glb

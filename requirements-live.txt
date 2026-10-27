@@ -1,0 +1,2 @@
+# Released 2025-01-16; install alongside the existing vision environment.
+opencv-python==4.11.0.86

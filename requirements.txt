@@ -1,0 +1,4 @@
+# Fixed releases, each older than two weeks when this project was prepared.
+# NumPy: 2025-11-16. Pillow: 2025-07-01.
+numpy==2.3.5
+Pillow==11.3.0
