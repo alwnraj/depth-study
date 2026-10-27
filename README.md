@@ -20,7 +20,7 @@ The repository omits model weights and photo/GLB inputs. The download scripts fe
 
 For a new agent session, open this repository as the workspace and read **`AGENTS.md` → `agent.md` → `handoff.md`**. The handoff records the tested baseline, limits and next-session context.
 
-The project is a local Git repository on `main`. The accompanying `bucha-python.zip` is a source snapshot; `bucha-python.bundle` includes Git history and can be cloned with `git clone bucha-python.bundle bucha-python`. No remote has been configured.
+This repository contains the project source. It starts with a source-only snapshot; generated outputs, checkpoints and input scans are omitted.
 
 ## Goal and current status
 
@@ -66,7 +66,7 @@ The default command reproduces the Bucha **scan-specific, visually guided regres
 ## Run on this computer
 
 1. Open the **bucha-python** folder itself in VS Code using **File → Open Folder**.
-2. Choose **Python: Select Interpreter** and select **`.venv/bin/python`**. The environment is already installed on this computer. On Windows its equivalent is `.venv/Scripts/python.exe`.
+2. Choose **Python: Select Interpreter** and select **`.venv/bin/python`**. Create the environment using the quick-start instructions above. On Windows its equivalent is `.venv/Scripts/python.exe`.
 3. Open `run.py` and use **Run Python File**, or press **F5** with **Bucha: full pipeline** selected. The F5 configurations require VS Code's Python and Python Debugger extensions.
 
 In a new VS Code terminal with that environment selected:
